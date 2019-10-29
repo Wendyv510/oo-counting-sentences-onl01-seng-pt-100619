@@ -26,8 +26,7 @@ class String
 
   end
 
-  def count_sentences(count_sentences)
-    @count_sentences = count_sentences 
+  def count_sentences
     self.each do |sentences|
       self.split(".","?","!").each_with_index
     end
