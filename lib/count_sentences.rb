@@ -9,7 +9,7 @@ class String
     @sentence = sentence 
     self.end_with?(".")
    end
-   binding.pry
+   
    def sentence 
      @sentence
    end 
