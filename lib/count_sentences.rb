@@ -53,6 +53,11 @@ end
 
 "Hi, my name is Sophie.".end_with?("!")
 
+count_sentences("one.two.three.")
+
+count_sentences("")
+
+count_sentences("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
 
 
 
