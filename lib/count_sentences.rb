@@ -8,8 +8,11 @@ class String
   def sentence?(sentence)
     @sentence = sentence 
     self.end_with?(".")
-    
-  end
+   end
+   
+   def sentence 
+     @sentence
+   end 
 
   def question?(question)
     @question = question 
