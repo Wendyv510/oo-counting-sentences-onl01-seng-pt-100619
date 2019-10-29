@@ -39,8 +39,8 @@ class String
 end
 
 
-Hi, my name is Sophie. = String.new.sentence?
-self.sentence?("Hi, my name is Sophie.")
+
+String.self.sentence?("Hi, my name is Sophie.")
 
 
 self.sentence?("Hi, my name is Sophie")
