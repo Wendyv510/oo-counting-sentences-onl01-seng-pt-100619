@@ -35,26 +35,6 @@ class String
   end
 end
 
-self.sentence?("Hi, my name is Sophie.")
-
-
-self.sentence?("Hi, my name is Sophie")
-
-self.question?("What's your name?")
-
-self.question?("Happy Halloween!")
-
-self.exclamation?("Hi, my name is Sophie!")
-
-self.exclamation?("Hi, my name is Sophie.")
-
-self.count_sentences("one.two.three.")
-
-self.count_sentences("")
-
-complex_string.count_sentences("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
-
-
 
 
 
