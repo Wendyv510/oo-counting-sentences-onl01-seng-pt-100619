@@ -9,7 +9,7 @@ class String
     @sentence = sentence 
     self.end_with?(".")
    end
-   
+   binding.pry
    def sentence 
      @sentence
    end 
@@ -38,10 +38,9 @@ class String
   end
 end
 
-"Hi, my name is Sophie.".String.sentence?
-"Hi, my name is Sophie.".sentence? 
 
-String.new.sentence?("Hi, my name is Sophie.")
+
+self.new.sentence?("Hi, my name is Sophie.")
 
 
 self.sentence?("Hi, my name is Sophie")
