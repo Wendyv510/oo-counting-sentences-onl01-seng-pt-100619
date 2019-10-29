@@ -38,7 +38,7 @@ class String
   end
 end
 
-
+sentenced?("Hi, my name is Sophie.")
 
 "Hi, my name is Sophie.".end_with?(".")
 
