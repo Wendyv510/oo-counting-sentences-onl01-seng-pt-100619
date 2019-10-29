@@ -1,20 +1,60 @@
 require 'pry'
 
-class String
 
-  def sentence?
+class String
+  
+  attr_accessor :sentence, :question, :exlamation, :count_sentences 
+
+  def sentence?(sentence)
+    @sentence = sentence 
+    self.end_with?(".")
     
   end
 
-  def question?
+  def question?(question)
+    @question = question 
+    self.end_with?("?")
 
   end
 
-  def exclamation?
+  def exclamation?(exclamation)
+    @exclamation = exclamation 
+    self.end_with?("!")
 
   end
 
-  def count_sentences
+  def count_sentences(count_sentences)
+    @count_sentences = count_sentences 
+    self.each do |sentences|
+      self.split(".","?","!").each_with_index
+    end
+    
+    
+      
 
   end
 end
+
+String.sentence?("Hi, my name is Sophie.")
+
+
+self.sentence?("Hi, my name is Sophie")
+
+self.question?("What's your name?")
+
+self.question?("Happy Halloween!")
+
+self.exclamation?("Hi, my name is Sophie!")
+
+self.exclamation?("Hi, my name is Sophie.")
+
+self.count_sentences("one.two.three.")
+
+self.count_sentences("")
+
+complex_string.count_sentences("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
+
+
+
+
+
