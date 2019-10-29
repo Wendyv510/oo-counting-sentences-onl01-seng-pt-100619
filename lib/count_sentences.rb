@@ -3,7 +3,7 @@ require 'pry'
 
 class String
   
-  attr_reader :sentence, :question, :exlamation, :count_sentences 
+  attr_reader :sentence, :question, :exlamation 
 
   def sentence?(sentence)
     @sentence = sentence 
