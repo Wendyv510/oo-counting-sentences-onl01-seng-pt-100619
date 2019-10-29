@@ -39,7 +39,7 @@ class String
 end
 
 
-"Hi, my name is Sophie."String.new 
+Hi, my name is Sophie.String.new 
 self.sentence?("Hi, my name is Sophie.")
 
 
