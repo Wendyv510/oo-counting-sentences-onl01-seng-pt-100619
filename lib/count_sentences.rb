@@ -30,10 +30,6 @@ class String
     self.each do |sentences|
       self.split(".","?","!").each_with_index
     end
-    
-    
-      
-
   end
 end
 
