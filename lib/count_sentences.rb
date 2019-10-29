@@ -40,7 +40,7 @@ end
 
 
 
-self.new.sentence?("Hi, my name is Sophie.")
+"Hi, my name is Sophie.".end_with?(".")
 
 
 self.sentence?("Hi, my name is Sophie")
