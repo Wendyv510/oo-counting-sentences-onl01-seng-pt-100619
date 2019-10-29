@@ -43,21 +43,21 @@ end
 "Hi, my name is Sophie.".end_with?(".")
 
 
-self.sentence?("Hi, my name is Sophie")
+"Hi, my name is Sophie".end_with?(".")
 
-self.question?("What's your name?")
+"What's your name?".end_with?("?")
 
-self.question?("Happy Halloween!")
+"Happy Halloween!".end_with?("?")
 
-self.exclamation?("Hi, my name is Sophie!")
+"Hi, my name is Sophie!".end_with?("!")
 
-self.exclamation?("Hi, my name is Sophie.")
+"Hi, my name is Sophie.".end_with?("!")
 
-self.count_sentences("one.two.three.")
+"one.two.three.".count_sentences
 
-self.count_sentences("")
+"".count_sentences 
 
-complex_string.count_sentences("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
+"This, well, is a sentence. This is too!! And so is this, I think? Woo...".count_sentences
 
 
 
